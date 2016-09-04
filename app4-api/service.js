@@ -6,6 +6,7 @@ this.getPlanets = function() {
     method: 'GET',
     url: "http://swapi.co/api/planets/"
   }).then(function(response){
+      //8 we got data back
       if(response.status === 200){
 
     return response.data;
